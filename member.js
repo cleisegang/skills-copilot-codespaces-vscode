@@ -1,5 +1,5 @@
 function skillsmember() {
-    var skills = document.getElementById("skills");
+    var skills = document.getElementById("skills");   
     var skillsvalue = skills.options[skills.selectedIndex].value;
     var skillsname = skills.options[skills.selectedIndex].text;
     var skillslist = document.getElementById("skillslist");
